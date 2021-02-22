@@ -32,7 +32,7 @@
 
 可操作句柄
 
-Defined in: types.ts:20
+Defined in: [types.ts:32](https://github.com/jackness1208/yyl-seed-base/blob/a413c63/src/types.ts#L32)
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 通知父应用不运行本地 server
 
-Defined in: types.ts:12
+Defined in: [types.ts:21](https://github.com/jackness1208/yyl-seed-base/blob/a413c63/src/types.ts#L21)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 消息处理对象
 
-Defined in: types.ts:8
+Defined in: [types.ts:17](https://github.com/jackness1208/yyl-seed-base/blob/a413c63/src/types.ts#L17)
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 项目根目录
 
-Defined in: types.ts:10
+Defined in: [types.ts:19](https://github.com/jackness1208/yyl-seed-base/blob/a413c63/src/types.ts#L19)
 
 ## Methods
 
@@ -74,7 +74,7 @@ Defined in: types.ts:10
 
 **Returns:** [*SeedOptimizeResult*](seedoptimizeresult.md)
 
-Defined in: types.ts:16
+Defined in: [types.ts:28](https://github.com/jackness1208/yyl-seed-base/blob/a413c63/src/types.ts#L28)
 
 ___
 
@@ -86,13 +86,13 @@ ___
 
 **Returns:** YylConfig
 
-Defined in: types.ts:6
+Defined in: [types.ts:15](https://github.com/jackness1208/yyl-seed-base/blob/a413c63/src/types.ts#L15)
 
 ___
 
 ### on
 
-▸ **on**<A\>(`eventName`: *string*, `fn`: *ResponseFn*<*any*[]\>): [*SeedOptimizeResult*](seedoptimizeresult.md)
+▸ **on**<T\>(`eventName`: T, `fn`: *ResponseFn*<[*SeedEventName*](seedeventname.md)[T]\>): [*SeedOptimizeResult*](seedoptimizeresult.md)
 
 消息监听
 
@@ -100,18 +100,18 @@ ___
 
 Name | Type | Default |
 ------ | ------ | ------ |
-`A` | *any*[] | *any*[] |
+`T` | *start* \| *msg* \| *loading* \| *finished* | *start* \| *msg* \| *loading* \| *finished* |
 
 #### Parameters:
 
 Name | Type |
 ------ | ------ |
-`eventName` | *string* |
-`fn` | *ResponseFn*<*any*[]\> |
+`eventName` | T |
+`fn` | *ResponseFn*<[*SeedEventName*](seedeventname.md)[T]\> |
 
 **Returns:** [*SeedOptimizeResult*](seedoptimizeresult.md)
 
-Defined in: types.ts:14
+Defined in: [types.ts:23](https://github.com/jackness1208/yyl-seed-base/blob/a413c63/src/types.ts#L23)
 
 ___
 
@@ -123,4 +123,4 @@ ___
 
 **Returns:** [*SeedOptimizeResult*](seedoptimizeresult.md)
 
-Defined in: types.ts:18
+Defined in: [types.ts:30](https://github.com/jackness1208/yyl-seed-base/blob/a413c63/src/types.ts#L30)

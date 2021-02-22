@@ -1,5 +1,14 @@
 import { YylConfig, Env } from 'yyl-config-types'
 import SeedResponse, { ResponseFn } from 'yyl-seed-response'
+export type MsgType = 'error' | 'warn' | 'info' | 'create' | 'update' | 'success' | 'del'
+
+export interface SeedEventName {
+  start: []
+  msg: [MsgType, any[]]
+  loading: [string]
+  finished: []
+}
+
 /** 构建函数 - 返回 */
 export interface SeedOptimizeResult {
   /** 获取 yylConfig 的运行配置 */
@@ -11,7 +20,10 @@ export interface SeedOptimizeResult {
   /** 通知父应用不运行本地 server */
   ignoreServer?: boolean
   /** 消息监听 */
-  on<A extends any[] = any[]>(eventName: string, fn: ResponseFn): SeedOptimizeResult
+  on<T extends keyof SeedEventName = keyof SeedEventName>(
+    eventName: T,
+    fn: ResponseFn<SeedEventName[T]>
+  ): SeedOptimizeResult
   /** 构建 */
   all(): SeedOptimizeResult
   /** 监听并构建 */

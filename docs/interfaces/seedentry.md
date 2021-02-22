@@ -33,7 +33,7 @@ Name | Type |
 `default` | *string*[] |
 `yy` | *string*[] |
 
-Defined in: types.ts:48
+Defined in: [types.ts:60](https://github.com/jackness1208/yyl-seed-base/blob/a413c63/src/types.ts#L60)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 seed 名称
 
-Defined in: types.ts:40
+Defined in: [types.ts:52](https://github.com/jackness1208/yyl-seed-base/blob/a413c63/src/types.ts#L52)
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 构建处理
 
-Defined in: types.ts:46
+Defined in: [types.ts:58](https://github.com/jackness1208/yyl-seed-base/blob/a413c63/src/types.ts#L58)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 所在地址
 
-Defined in: types.ts:44
+Defined in: [types.ts:56](https://github.com/jackness1208/yyl-seed-base/blob/a413c63/src/types.ts#L56)
 
 ___
 
@@ -73,4 +73,4 @@ ___
 
 版本
 
-Defined in: types.ts:42
+Defined in: [types.ts:54](https://github.com/jackness1208/yyl-seed-base/blob/a413c63/src/types.ts#L54)
