@@ -32,7 +32,7 @@
 
 可操作句柄
 
-Defined in: [types.ts:32](https://github.com/jackness1208/yyl-seed-base/blob/a413c63/src/types.ts#L32)
+Defined in: [types.ts:31](https://github.com/jackness1208/yyl-seed-base/blob/4d48522/src/types.ts#L31)
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 通知父应用不运行本地 server
 
-Defined in: [types.ts:21](https://github.com/jackness1208/yyl-seed-base/blob/a413c63/src/types.ts#L21)
+Defined in: [types.ts:20](https://github.com/jackness1208/yyl-seed-base/blob/4d48522/src/types.ts#L20)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 消息处理对象
 
-Defined in: [types.ts:17](https://github.com/jackness1208/yyl-seed-base/blob/a413c63/src/types.ts#L17)
+Defined in: [types.ts:16](https://github.com/jackness1208/yyl-seed-base/blob/4d48522/src/types.ts#L16)
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 项目根目录
 
-Defined in: [types.ts:19](https://github.com/jackness1208/yyl-seed-base/blob/a413c63/src/types.ts#L19)
+Defined in: [types.ts:18](https://github.com/jackness1208/yyl-seed-base/blob/4d48522/src/types.ts#L18)
 
 ## Methods
 
@@ -74,7 +74,7 @@ Defined in: [types.ts:19](https://github.com/jackness1208/yyl-seed-base/blob/a41
 
 **Returns:** [*SeedOptimizeResult*](seedoptimizeresult.md)
 
-Defined in: [types.ts:28](https://github.com/jackness1208/yyl-seed-base/blob/a413c63/src/types.ts#L28)
+Defined in: [types.ts:27](https://github.com/jackness1208/yyl-seed-base/blob/4d48522/src/types.ts#L27)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 **Returns:** YylConfig
 
-Defined in: [types.ts:15](https://github.com/jackness1208/yyl-seed-base/blob/a413c63/src/types.ts#L15)
+Defined in: [types.ts:14](https://github.com/jackness1208/yyl-seed-base/blob/4d48522/src/types.ts#L14)
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 Name | Type | Default |
 ------ | ------ | ------ |
-`T` | *start* \| *msg* \| *loading* \| *finished* | *start* \| *msg* \| *loading* \| *finished* |
+`T` | *msg* \| *progress* | *msg* \| *progress* |
 
 #### Parameters:
 
@@ -111,7 +111,7 @@ Name | Type |
 
 **Returns:** [*SeedOptimizeResult*](seedoptimizeresult.md)
 
-Defined in: [types.ts:23](https://github.com/jackness1208/yyl-seed-base/blob/a413c63/src/types.ts#L23)
+Defined in: [types.ts:22](https://github.com/jackness1208/yyl-seed-base/blob/4d48522/src/types.ts#L22)
 
 ___
 
@@ -123,4 +123,4 @@ ___
 
 **Returns:** [*SeedOptimizeResult*](seedoptimizeresult.md)
 
-Defined in: [types.ts:30](https://github.com/jackness1208/yyl-seed-base/blob/a413c63/src/types.ts#L30)
+Defined in: [types.ts:29](https://github.com/jackness1208/yyl-seed-base/blob/4d48522/src/types.ts#L29)

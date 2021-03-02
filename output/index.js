@@ -1,5 +1,5 @@
 /*!
- * yyl-seed-base cjs 0.1.1
+ * yyl-seed-base cjs 0.2.0
  * (c) 2020 - 2021 
  * Released under the MIT License.
  */
