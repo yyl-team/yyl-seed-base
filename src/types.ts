@@ -1,12 +1,11 @@
 import { YylConfig, Env } from 'yyl-config-types'
 import SeedResponse, { ResponseFn } from 'yyl-seed-response'
-export type MsgType = 'error' | 'warn' | 'info' | 'create' | 'update' | 'success' | 'del'
+export type MsgType = 'error' | 'warn' | 'info' | 'add' | 'update' | 'success' | 'del'
+export type ProgressType = 'start' | 'finished' | number
 
 export interface SeedEventName {
-  start: []
   msg: [MsgType, any[]]
-  loading: [string]
-  finished: []
+  progress: [ProgressType]
 }
 
 /** 构建函数 - 返回 */

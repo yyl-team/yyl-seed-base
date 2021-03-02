@@ -33,7 +33,7 @@ Name | Type |
 `default` | *string*[] |
 `yy` | *string*[] |
 
-Defined in: [types.ts:60](https://github.com/jackness1208/yyl-seed-base/blob/a413c63/src/types.ts#L60)
+Defined in: [types.ts:59](https://github.com/jackness1208/yyl-seed-base/blob/4d48522/src/types.ts#L59)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 seed 名称
 
-Defined in: [types.ts:52](https://github.com/jackness1208/yyl-seed-base/blob/a413c63/src/types.ts#L52)
+Defined in: [types.ts:51](https://github.com/jackness1208/yyl-seed-base/blob/4d48522/src/types.ts#L51)
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 构建处理
 
-Defined in: [types.ts:58](https://github.com/jackness1208/yyl-seed-base/blob/a413c63/src/types.ts#L58)
+Defined in: [types.ts:57](https://github.com/jackness1208/yyl-seed-base/blob/4d48522/src/types.ts#L57)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 所在地址
 
-Defined in: [types.ts:56](https://github.com/jackness1208/yyl-seed-base/blob/a413c63/src/types.ts#L56)
+Defined in: [types.ts:55](https://github.com/jackness1208/yyl-seed-base/blob/4d48522/src/types.ts#L55)
 
 ___
 
@@ -73,4 +73,4 @@ ___
 
 版本
 
-Defined in: [types.ts:54](https://github.com/jackness1208/yyl-seed-base/blob/a413c63/src/types.ts#L54)
+Defined in: [types.ts:53](https://github.com/jackness1208/yyl-seed-base/blob/4d48522/src/types.ts#L53)

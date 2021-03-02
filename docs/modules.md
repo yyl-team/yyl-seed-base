@@ -14,15 +14,24 @@
 ### Type aliases
 
 - [MsgType](modules.md#msgtype)
+- [ProgressType](modules.md#progresstype)
 - [SeedOptimize](modules.md#seedoptimize)
 
 ## Type aliases
 
 ### MsgType
 
-Ƭ **MsgType**: *error* \| *warn* \| *info* \| *create* \| *update* \| *success* \| *del*
+Ƭ **MsgType**: *error* \| *warn* \| *info* \| *add* \| *update* \| *success* \| *del*
 
-Defined in: [types.ts:3](https://github.com/jackness1208/yyl-seed-base/blob/a413c63/src/types.ts#L3)
+Defined in: [types.ts:3](https://github.com/jackness1208/yyl-seed-base/blob/4d48522/src/types.ts#L3)
+
+___
+
+### ProgressType
+
+Ƭ **ProgressType**: *start* \| *finished* \| *number*
+
+Defined in: [types.ts:4](https://github.com/jackness1208/yyl-seed-base/blob/4d48522/src/types.ts#L4)
 
 ___
 
@@ -32,4 +41,4 @@ ___
 
 构建函数
 
-Defined in: [types.ts:47](https://github.com/jackness1208/yyl-seed-base/blob/a413c63/src/types.ts#L47)
+Defined in: [types.ts:46](https://github.com/jackness1208/yyl-seed-base/blob/4d48522/src/types.ts#L46)
