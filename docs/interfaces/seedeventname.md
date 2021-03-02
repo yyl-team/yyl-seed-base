@@ -19,7 +19,7 @@
 
 • **msg**: [*MsgType*](../modules.md#msgtype)
 
-Defined in: [types.ts:7](https://github.com/jackness1208/yyl-seed-base/blob/85a1665/src/types.ts#L7)
+Defined in: [types.ts:7](https://github.com/jackness1208/yyl-seed-base/blob/3746c85/src/types.ts#L7)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **progress**: [*ProgressType*](../modules.md#progresstype)
 
-Defined in: [types.ts:8](https://github.com/jackness1208/yyl-seed-base/blob/85a1665/src/types.ts#L8)
+Defined in: [types.ts:8](https://github.com/jackness1208/yyl-seed-base/blob/3746c85/src/types.ts#L8)

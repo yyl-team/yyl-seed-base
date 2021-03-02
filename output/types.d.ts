@@ -1,6 +1,6 @@
 import { YylConfig, Env } from 'yyl-config-types';
 import SeedResponse, { ResponseFn } from 'yyl-seed-response';
-export declare type MsgType = 'error' | 'warn' | 'info' | 'add' | 'update' | 'success' | 'del';
+export declare type MsgType = 'error' | 'warn' | 'info' | 'add' | 'update' | 'success' | 'del' | 'cmd';
 export declare type ProgressType = 'start' | 'finished' | number;
 export interface SeedEventName {
     msg: MsgType;
