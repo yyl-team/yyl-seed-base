@@ -1,5 +1,9 @@
 # 版本变更
 
+## 0.2.1 (2021-03-02)
+
+- feat: 调整 SeedEventName
+
 ## 0.2.0 (2021-03-02)
 
 - feat: 调整 SeedEventName

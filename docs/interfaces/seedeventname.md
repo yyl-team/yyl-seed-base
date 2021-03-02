@@ -17,14 +17,14 @@
 
 ### msg
 
-• **msg**: [[*MsgType*](../modules.md#msgtype), *any*[]]
+• **msg**: [*MsgType*](../modules.md#msgtype)
 
-Defined in: [types.ts:7](https://github.com/jackness1208/yyl-seed-base/blob/4d48522/src/types.ts#L7)
+Defined in: [types.ts:7](https://github.com/jackness1208/yyl-seed-base/blob/85a1665/src/types.ts#L7)
 
 ___
 
 ### progress
 
-• **progress**: [[*ProgressType*](../modules.md#progresstype)]
+• **progress**: [*ProgressType*](../modules.md#progresstype)
 
-Defined in: [types.ts:8](https://github.com/jackness1208/yyl-seed-base/blob/4d48522/src/types.ts#L8)
+Defined in: [types.ts:8](https://github.com/jackness1208/yyl-seed-base/blob/85a1665/src/types.ts#L8)

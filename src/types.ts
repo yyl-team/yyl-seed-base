@@ -4,8 +4,8 @@ export type MsgType = 'error' | 'warn' | 'info' | 'add' | 'update' | 'success' |
 export type ProgressType = 'start' | 'finished' | number
 
 export interface SeedEventName {
-  msg: [MsgType, any[]]
-  progress: [ProgressType]
+  msg: MsgType
+  progress: ProgressType
 }
 
 /** 构建函数 - 返回 */
@@ -21,7 +21,7 @@ export interface SeedOptimizeResult {
   /** 消息监听 */
   on<T extends keyof SeedEventName = keyof SeedEventName>(
     eventName: T,
-    fn: ResponseFn<SeedEventName[T]>
+    fn: ResponseFn<[SeedEventName[T], any[]]>
   ): SeedOptimizeResult
   /** 构建 */
   all(): SeedOptimizeResult

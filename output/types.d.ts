@@ -3,8 +3,8 @@ import SeedResponse, { ResponseFn } from 'yyl-seed-response';
 export declare type MsgType = 'error' | 'warn' | 'info' | 'add' | 'update' | 'success' | 'del';
 export declare type ProgressType = 'start' | 'finished' | number;
 export interface SeedEventName {
-    msg: [MsgType, any[]];
-    progress: [ProgressType];
+    msg: MsgType;
+    progress: ProgressType;
 }
 /** 构建函数 - 返回 */
 export interface SeedOptimizeResult {
@@ -17,7 +17,7 @@ export interface SeedOptimizeResult {
     /** 通知父应用不运行本地 server */
     ignoreServer?: boolean;
     /** 消息监听 */
-    on<T extends keyof SeedEventName = keyof SeedEventName>(eventName: T, fn: ResponseFn<SeedEventName[T]>): SeedOptimizeResult;
+    on<T extends keyof SeedEventName = keyof SeedEventName>(eventName: T, fn: ResponseFn<[SeedEventName[T], any[]]>): SeedOptimizeResult;
     /** 构建 */
     all(): SeedOptimizeResult;
     /** 监听并构建 */
