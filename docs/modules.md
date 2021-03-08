@@ -23,7 +23,7 @@
 
 Ƭ **MsgType**: *error* \| *warn* \| *info* \| *add* \| *update* \| *success* \| *del* \| *cmd*
 
-Defined in: [types.ts:3](https://github.com/jackness1208/yyl-seed-base/blob/c2ccaa7/src/types.ts#L3)
+Defined in: [types.ts:3](https://github.com/jackness1208/yyl-seed-base/blob/d55a263/src/types.ts#L3)
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 Ƭ **ProgressType**: *start* \| *finished* \| *number*
 
-Defined in: [types.ts:4](https://github.com/jackness1208/yyl-seed-base/blob/c2ccaa7/src/types.ts#L4)
+Defined in: [types.ts:4](https://github.com/jackness1208/yyl-seed-base/blob/d55a263/src/types.ts#L4)
 
 ___
 
@@ -41,4 +41,4 @@ ___
 
 构建函数
 
-Defined in: [types.ts:61](https://github.com/jackness1208/yyl-seed-base/blob/c2ccaa7/src/types.ts#L61)
+Defined in: [types.ts:56](https://github.com/jackness1208/yyl-seed-base/blob/d55a263/src/types.ts#L56)

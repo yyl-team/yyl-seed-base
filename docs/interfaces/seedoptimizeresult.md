@@ -32,7 +32,7 @@
 
 可操作句柄
 
-Defined in: [types.ts:46](https://github.com/jackness1208/yyl-seed-base/blob/c2ccaa7/src/types.ts#L46)
+Defined in: [types.ts:41](https://github.com/jackness1208/yyl-seed-base/blob/d55a263/src/types.ts#L41)
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 通知父应用不运行本地 server
 
-Defined in: [types.ts:28](https://github.com/jackness1208/yyl-seed-base/blob/c2ccaa7/src/types.ts#L28)
+Defined in: [types.ts:28](https://github.com/jackness1208/yyl-seed-base/blob/d55a263/src/types.ts#L28)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 消息处理对象
 
-Defined in: [types.ts:24](https://github.com/jackness1208/yyl-seed-base/blob/c2ccaa7/src/types.ts#L24)
+Defined in: [types.ts:24](https://github.com/jackness1208/yyl-seed-base/blob/d55a263/src/types.ts#L24)
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 项目根目录
 
-Defined in: [types.ts:26](https://github.com/jackness1208/yyl-seed-base/blob/c2ccaa7/src/types.ts#L26)
+Defined in: [types.ts:26](https://github.com/jackness1208/yyl-seed-base/blob/d55a263/src/types.ts#L26)
 
 ## Methods
 
@@ -74,7 +74,7 @@ Defined in: [types.ts:26](https://github.com/jackness1208/yyl-seed-base/blob/c2c
 
 **Returns:** [*SeedOptimizeResult*](seedoptimizeresult.md)
 
-Defined in: [types.ts:42](https://github.com/jackness1208/yyl-seed-base/blob/c2ccaa7/src/types.ts#L42)
+Defined in: [types.ts:37](https://github.com/jackness1208/yyl-seed-base/blob/d55a263/src/types.ts#L37)
 
 ___
 
@@ -86,13 +86,13 @@ ___
 
 **Returns:** YylConfig
 
-Defined in: [types.ts:22](https://github.com/jackness1208/yyl-seed-base/blob/c2ccaa7/src/types.ts#L22)
+Defined in: [types.ts:22](https://github.com/jackness1208/yyl-seed-base/blob/d55a263/src/types.ts#L22)
 
 ___
 
 ### on
 
-▸ **on**<T\>(`eventName`: T, `fn`: *ResponseFn*<[[*SeedEventName*](seedeventname.md)[T], [*SeedEventName*](seedeventname.md)[T][*Args01*], [*SeedEventName*](seedeventname.md)[T][*Args02*], [*SeedEventName*](seedeventname.md)[T][*Args03*]]\>): [*SeedOptimizeResult*](seedoptimizeresult.md)
+▸ **on**<T\>(`eventName`: T, `fn`: *ResponseFn*<[[*SeedEventName*](seedeventname.md)[T][*Args01*], [*SeedEventName*](seedeventname.md)[T][*Args02*], [*SeedEventName*](seedeventname.md)[T][*Args03*]]\>): [*SeedOptimizeResult*](seedoptimizeresult.md)
 
 消息监听
 
@@ -107,11 +107,11 @@ Name | Type | Default |
 Name | Type |
 ------ | ------ |
 `eventName` | T |
-`fn` | *ResponseFn*<[[*SeedEventName*](seedeventname.md)[T], [*SeedEventName*](seedeventname.md)[T][*Args01*], [*SeedEventName*](seedeventname.md)[T][*Args02*], [*SeedEventName*](seedeventname.md)[T][*Args03*]]\> |
+`fn` | *ResponseFn*<[[*SeedEventName*](seedeventname.md)[T][*Args01*], [*SeedEventName*](seedeventname.md)[T][*Args02*], [*SeedEventName*](seedeventname.md)[T][*Args03*]]\> |
 
 **Returns:** [*SeedOptimizeResult*](seedoptimizeresult.md)
 
-Defined in: [types.ts:30](https://github.com/jackness1208/yyl-seed-base/blob/c2ccaa7/src/types.ts#L30)
+Defined in: [types.ts:30](https://github.com/jackness1208/yyl-seed-base/blob/d55a263/src/types.ts#L30)
 
 ___
 
@@ -123,4 +123,4 @@ ___
 
 **Returns:** [*SeedOptimizeResult*](seedoptimizeresult.md)
 
-Defined in: [types.ts:44](https://github.com/jackness1208/yyl-seed-base/blob/c2ccaa7/src/types.ts#L44)
+Defined in: [types.ts:39](https://github.com/jackness1208/yyl-seed-base/blob/d55a263/src/types.ts#L39)
