@@ -30,12 +30,7 @@ export interface SeedOptimizeResult {
   on<T extends keyof SeedEventName = keyof SeedEventName>(
     eventName: T,
     fn: ResponseFn<
-      [
-        SeedEventName[T],
-        SeedEventName[T]['Args01'],
-        SeedEventName[T]['Args02'],
-        SeedEventName[T]['Args03']
-      ]
+      [SeedEventName[T]['Args01'], SeedEventName[T]['Args02'], SeedEventName[T]['Args03']]
     >
   ): SeedOptimizeResult
   /** 构建 */
