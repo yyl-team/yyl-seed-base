@@ -25,7 +25,7 @@
 
 操作符
 
-Defined in: [types.ts:42](https://github.com/jackness1208/yyl-seed-base/blob/3746c85/src/types.ts#L42)
+Defined in: [types.ts:57](https://github.com/jackness1208/yyl-seed-base/blob/c2ccaa7/src/types.ts#L57)
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 cli 传参
 
-Defined in: [types.ts:40](https://github.com/jackness1208/yyl-seed-base/blob/3746c85/src/types.ts#L40)
+Defined in: [types.ts:55](https://github.com/jackness1208/yyl-seed-base/blob/c2ccaa7/src/types.ts#L55)
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 项目根目录
 
-Defined in: [types.ts:38](https://github.com/jackness1208/yyl-seed-base/blob/3746c85/src/types.ts#L38)
+Defined in: [types.ts:53](https://github.com/jackness1208/yyl-seed-base/blob/c2ccaa7/src/types.ts#L53)
 
 ___
 
@@ -55,4 +55,4 @@ ___
 
 yylConfig
 
-Defined in: [types.ts:36](https://github.com/jackness1208/yyl-seed-base/blob/3746c85/src/types.ts#L36)
+Defined in: [types.ts:51](https://github.com/jackness1208/yyl-seed-base/blob/c2ccaa7/src/types.ts#L51)
