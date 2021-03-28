@@ -1,5 +1,10 @@
 # 版本变更
 
+## 0.2.5 (2021-03-08)
+
+- feat: 补充 SeedResult.appWillMount
+- feat: 补充 SeedResult.appDidMount
+
 ## 0.2.4 (2021-03-08)
 
 - feat: 调整 SeedEventName
