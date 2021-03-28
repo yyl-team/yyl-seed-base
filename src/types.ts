@@ -1,5 +1,6 @@
 import { YylConfig, Env } from 'yyl-config-types'
 import SeedResponse, { ResponseFn } from 'yyl-seed-response'
+import { Express } from 'express'
 export type MsgType = 'error' | 'warn' | 'info' | 'add' | 'update' | 'success' | 'del' | 'cmd'
 export type ProgressType = 'start' | 'finished' | number
 
@@ -26,6 +27,10 @@ export interface SeedOptimizeResult {
   root: string
   /** 通知父应用不运行本地 server */
   ignoreServer?: boolean
+  /** express 使用中间件前回调 hooks */
+  appWillMount?: (app: Express) => Promise<any>
+  /** express 使用中间件后回调 hooks */
+  appDidMount?: (app: Express) => Promise<any>
   /** 消息监听 */
   on<T extends keyof SeedEventName = keyof SeedEventName>(
     eventName: T,

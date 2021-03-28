@@ -1,5 +1,5 @@
 {
-  "version": "0.2.4",
+  "version": "0.2.5",
   "main": "output/index.js",
   "types": "output/index.d.ts",
   "eslintConfig": {
@@ -63,5 +63,8 @@
   "description": "yyl seed base function and declare",
   "repository": "https://github.com/jackness1208/yyl-seed-base.git",
   "author": "liudaojie <liudaojie@yy.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.17.11"
+  }
 }
