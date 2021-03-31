@@ -27,7 +27,7 @@ Name | Type |
 `Args02` | *any*[] |
 `Args03` | *undefined* |
 
-Defined in: types.ts:8
+Defined in: [types.ts:8](https://github.com/jackness1208/yyl-seed-base/blob/b865035/src/types.ts#L8)
 
 ___
 
@@ -43,4 +43,4 @@ Name | Type |
 `Args02` | [*MsgType*](../modules.md#msgtype) |
 `Args03` | *any*[] |
 
-Defined in: types.ts:13
+Defined in: [types.ts:13](https://github.com/jackness1208/yyl-seed-base/blob/b865035/src/types.ts#L13)

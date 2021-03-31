@@ -1,5 +1,9 @@
 # 版本变更
 
+## 0.2.6 (2021-03-31)
+
+- feat: 补充 logger types
+
 ## 0.2.5 (2021-03-08)
 
 - feat: 补充 SeedResult.appWillMount

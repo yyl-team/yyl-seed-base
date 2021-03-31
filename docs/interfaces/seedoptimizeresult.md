@@ -34,7 +34,7 @@
 
 express 使用中间件后回调 hooks
 
-Defined in: types.ts:33
+Defined in: [types.ts:41](https://github.com/jackness1208/yyl-seed-base/blob/b865035/src/types.ts#L41)
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 express 使用中间件前回调 hooks
 
-Defined in: types.ts:31
+Defined in: [types.ts:39](https://github.com/jackness1208/yyl-seed-base/blob/b865035/src/types.ts#L39)
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 可操作句柄
 
-Defined in: types.ts:46
+Defined in: [types.ts:54](https://github.com/jackness1208/yyl-seed-base/blob/b865035/src/types.ts#L54)
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 通知父应用不运行本地 server
 
-Defined in: types.ts:29
+Defined in: [types.ts:37](https://github.com/jackness1208/yyl-seed-base/blob/b865035/src/types.ts#L37)
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 消息处理对象
 
-Defined in: types.ts:25
+Defined in: [types.ts:33](https://github.com/jackness1208/yyl-seed-base/blob/b865035/src/types.ts#L33)
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 项目根目录
 
-Defined in: types.ts:27
+Defined in: [types.ts:35](https://github.com/jackness1208/yyl-seed-base/blob/b865035/src/types.ts#L35)
 
 ## Methods
 
@@ -96,7 +96,7 @@ Defined in: types.ts:27
 
 **Returns:** [*SeedOptimizeResult*](seedoptimizeresult.md)
 
-Defined in: types.ts:42
+Defined in: [types.ts:50](https://github.com/jackness1208/yyl-seed-base/blob/b865035/src/types.ts#L50)
 
 ___
 
@@ -108,7 +108,7 @@ ___
 
 **Returns:** YylConfig
 
-Defined in: types.ts:23
+Defined in: [types.ts:31](https://github.com/jackness1208/yyl-seed-base/blob/b865035/src/types.ts#L31)
 
 ___
 
@@ -133,7 +133,7 @@ Name | Type |
 
 **Returns:** [*SeedOptimizeResult*](seedoptimizeresult.md)
 
-Defined in: types.ts:35
+Defined in: [types.ts:43](https://github.com/jackness1208/yyl-seed-base/blob/b865035/src/types.ts#L43)
 
 ___
 
@@ -145,4 +145,4 @@ ___
 
 **Returns:** [*SeedOptimizeResult*](seedoptimizeresult.md)
 
-Defined in: types.ts:44
+Defined in: [types.ts:52](https://github.com/jackness1208/yyl-seed-base/blob/b865035/src/types.ts#L52)

@@ -15,6 +15,8 @@ export interface SeedEventName {
         Args03: any[];
     };
 }
+/** 日志logger */
+export declare type Logger<T extends keyof SeedEventName = keyof SeedEventName> = (type: T, args01: SeedEventName[T]['Args01'], args02?: SeedEventName[T]['Args02'], args03?: SeedEventName[T]['Args03']) => void;
 /** 构建函数 - 返回 */
 export interface SeedOptimizeResult {
     /** 获取 yylConfig 的运行配置 */
