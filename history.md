@@ -1,5 +1,10 @@
 # 版本变更
 
+## 0.3.0 (2021-05-07)
+
+- feat: 更新 `yyl-config-types@0.5.1`
+- feat: 调整 `types`
+
 ## 0.2.6 (2021-03-31)
 
 - feat: 补充 logger types

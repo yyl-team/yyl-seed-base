@@ -1,29 +1,6 @@
-import { YylConfig, Env } from 'yyl-config-types'
+import { YylConfig, Env, Logger, LoggerType } from 'yyl-config-types'
 import SeedResponse, { ResponseFn } from 'yyl-seed-response'
 import { Express } from 'express'
-export type MsgType = 'error' | 'warn' | 'info' | 'add' | 'update' | 'success' | 'del' | 'cmd'
-export type ProgressType = 'start' | 'finished' | number
-
-export interface SeedEventName {
-  msg: {
-    Args01: MsgType
-    Args02: any[]
-    Args03: undefined
-  }
-  progress: {
-    Args01: ProgressType
-    Args02: MsgType
-    Args03: any[]
-  }
-}
-
-/** 日志logger */
-export type Logger<T extends keyof SeedEventName = keyof SeedEventName> = (
-  type: T,
-  args01: SeedEventName[T]['Args01'],
-  args02?: SeedEventName[T]['Args02'],
-  args03?: SeedEventName[T]['Args03']
-) => void
 
 /** 构建函数 - 返回 */
 export interface SeedOptimizeResult {
@@ -40,11 +17,9 @@ export interface SeedOptimizeResult {
   /** express 使用中间件后回调 hooks */
   appDidMount?: (app: Express) => Promise<any>
   /** 消息监听 */
-  on<T extends keyof SeedEventName = keyof SeedEventName>(
+  on<T extends keyof LoggerType = keyof LoggerType>(
     eventName: T,
-    fn: ResponseFn<
-      [SeedEventName[T]['Args01'], SeedEventName[T]['Args02'], SeedEventName[T]['Args03']]
-    >
+    fn: ResponseFn<[LoggerType[T]['Args01'], LoggerType[T]['Args02'], LoggerType[T]['Args03']]>
   ): SeedOptimizeResult
   /** 构建 */
   all(): SeedOptimizeResult
