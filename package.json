@@ -62,7 +62,7 @@
   "name": "yyl-seed-base",
   "description": "yyl seed base function and declare",
   "repository": "https://github.com/jackness1208/yyl-seed-base.git",
-  "author": "liudaojie <liudaojie@yy.com>",
+  "author": "jackness1208",
   "license": "MIT",
   "dependencies": {
     "@types/express": "^4.17.11"
