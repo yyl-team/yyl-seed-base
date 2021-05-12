@@ -4,10 +4,6 @@
 
 构建函数 - 配置
 
-## Hierarchy
-
-* **SeedOptimizeOption**
-
 ## Table of contents
 
 ### Properties
@@ -25,7 +21,7 @@
 
 操作符
 
-Defined in: [types.ts:40](https://github.com/yyl-team/yyl-seed-base/blob/de3a34f/src/types.ts#L40)
+Defined in: [types.ts:40](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L40)
 
 ___
 
@@ -35,7 +31,7 @@ ___
 
 cli 传参
 
-Defined in: [types.ts:38](https://github.com/yyl-team/yyl-seed-base/blob/de3a34f/src/types.ts#L38)
+Defined in: [types.ts:38](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L38)
 
 ___
 
@@ -45,7 +41,7 @@ ___
 
 项目根目录
 
-Defined in: [types.ts:36](https://github.com/yyl-team/yyl-seed-base/blob/de3a34f/src/types.ts#L36)
+Defined in: [types.ts:36](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L36)
 
 ___
 
@@ -55,4 +51,4 @@ ___
 
 yylConfig
 
-Defined in: [types.ts:34](https://github.com/yyl-team/yyl-seed-base/blob/de3a34f/src/types.ts#L34)
+Defined in: [types.ts:34](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L34)

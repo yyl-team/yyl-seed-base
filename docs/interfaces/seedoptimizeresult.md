@@ -4,10 +4,6 @@
 
 构建函数 - 返回
 
-## Hierarchy
-
-* **SeedOptimizeResult**
-
 ## Table of contents
 
 ### Properties
@@ -30,21 +26,49 @@
 
 ### appDidMount
 
-• `Optional` **appDidMount**: *undefined* \| (`app`: *Express*) => *Promise*<*any*\>
+• `Optional` **appDidMount**: (`app`: *Express*) => *Promise*<any\>
 
 express 使用中间件后回调 hooks
 
-Defined in: [types.ts:18](https://github.com/yyl-team/yyl-seed-base/blob/de3a34f/src/types.ts#L18)
+#### Type declaration
+
+▸ (`app`: *Express*): *Promise*<any\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `app` | *Express* |
+
+**Returns:** *Promise*<any\>
+
+Defined in: [types.ts:18](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L18)
+
+Defined in: [types.ts:18](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L18)
 
 ___
 
 ### appWillMount
 
-• `Optional` **appWillMount**: *undefined* \| (`app`: *Express*) => *Promise*<*any*\>
+• `Optional` **appWillMount**: (`app`: *Express*) => *Promise*<any\>
 
 express 使用中间件前回调 hooks
 
-Defined in: [types.ts:16](https://github.com/yyl-team/yyl-seed-base/blob/de3a34f/src/types.ts#L16)
+#### Type declaration
+
+▸ (`app`: *Express*): *Promise*<any\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `app` | *Express* |
+
+**Returns:** *Promise*<any\>
+
+Defined in: [types.ts:16](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L16)
+
+Defined in: [types.ts:16](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L16)
 
 ___
 
@@ -54,17 +78,17 @@ ___
 
 可操作句柄
 
-Defined in: [types.ts:29](https://github.com/yyl-team/yyl-seed-base/blob/de3a34f/src/types.ts#L29)
+Defined in: [types.ts:29](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L29)
 
 ___
 
 ### ignoreServer
 
-• `Optional` **ignoreServer**: *undefined* \| *boolean*
+• `Optional` **ignoreServer**: *boolean*
 
 通知父应用不运行本地 server
 
-Defined in: [types.ts:14](https://github.com/yyl-team/yyl-seed-base/blob/de3a34f/src/types.ts#L14)
+Defined in: [types.ts:14](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L14)
 
 ___
 
@@ -74,7 +98,7 @@ ___
 
 消息处理对象
 
-Defined in: [types.ts:10](https://github.com/yyl-team/yyl-seed-base/blob/de3a34f/src/types.ts#L10)
+Defined in: [types.ts:10](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L10)
 
 ___
 
@@ -84,7 +108,7 @@ ___
 
 项目根目录
 
-Defined in: [types.ts:12](https://github.com/yyl-team/yyl-seed-base/blob/de3a34f/src/types.ts#L12)
+Defined in: [types.ts:12](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L12)
 
 ## Methods
 
@@ -96,7 +120,7 @@ Defined in: [types.ts:12](https://github.com/yyl-team/yyl-seed-base/blob/de3a34f
 
 **Returns:** [*SeedOptimizeResult*](seedoptimizeresult.md)
 
-Defined in: [types.ts:25](https://github.com/yyl-team/yyl-seed-base/blob/de3a34f/src/types.ts#L25)
+Defined in: [types.ts:25](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L25)
 
 ___
 
@@ -108,32 +132,32 @@ ___
 
 **Returns:** YylConfig
 
-Defined in: [types.ts:8](https://github.com/yyl-team/yyl-seed-base/blob/de3a34f/src/types.ts#L8)
+Defined in: [types.ts:8](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L8)
 
 ___
 
 ### on
 
-▸ **on**<T\>(`eventName`: T, `fn`: *ResponseFn*<[LoggerType[T][*Args01*], LoggerType[T][*Args02*], LoggerType[T][*Args03*]]\>): [*SeedOptimizeResult*](seedoptimizeresult.md)
+▸ **on**<T\>(`eventName`: T, `fn`: *ResponseFn*<[LoggerType[T][``"Args01"``], LoggerType[T][``"Args02"``], LoggerType[T][``"Args03"``]]\>): [*SeedOptimizeResult*](seedoptimizeresult.md)
 
 消息监听
 
-#### Type parameters:
+#### Type parameters
 
-Name | Type | Default |
------- | ------ | ------ |
-`T` | *msg* \| *progress* | *msg* \| *progress* |
+| Name | Type | Default |
+| :------ | :------ | :------ |
+| `T` | keyof LoggerType | keyof LoggerType |
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`eventName` | T |
-`fn` | *ResponseFn*<[LoggerType[T][*Args01*], LoggerType[T][*Args02*], LoggerType[T][*Args03*]]\> |
+| Name | Type |
+| :------ | :------ |
+| `eventName` | T |
+| `fn` | *ResponseFn*<[LoggerType[T][``"Args01"``], LoggerType[T][``"Args02"``], LoggerType[T][``"Args03"``]]\> |
 
 **Returns:** [*SeedOptimizeResult*](seedoptimizeresult.md)
 
-Defined in: [types.ts:20](https://github.com/yyl-team/yyl-seed-base/blob/de3a34f/src/types.ts#L20)
+Defined in: [types.ts:20](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L20)
 
 ___
 
@@ -145,4 +169,4 @@ ___
 
 **Returns:** [*SeedOptimizeResult*](seedoptimizeresult.md)
 
-Defined in: [types.ts:27](https://github.com/yyl-team/yyl-seed-base/blob/de3a34f/src/types.ts#L27)
+Defined in: [types.ts:27](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L27)
