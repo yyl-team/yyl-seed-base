@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0",
+  "version": "0.4.0",
   "main": "output/index.js",
   "types": "output/index.d.ts",
   "eslintConfig": {
@@ -25,7 +25,7 @@
     "printWidth": 100
   },
   "scripts": {
-    "bootstrap": "yarn install & npm run prettier",
+    "bootstrap": "yarn install && npm run prettier",
     "eslint": "eslint --ext=jsx,ts,tsx ./",
     "prettier": "prettier --write ./**",
     "dev": "rollup --config ./rollup.config.js",
@@ -34,11 +34,11 @@
     "w": "rollup --watch --config ./rollup.config.js",
     "prepublishOnly": "npm run prettier & npm test & npm run doc",
     "doc": "typedoc src/index.ts --plugin typedoc-plugin-markdown",
-    "test": "npm run build & jest ./test/jest/"
+    "test": "npm run build && jest ./test/jest/"
   },
   "peerDependencies": {
-    "yyl-config-types": ">=0.1.0",
-    "yyl-seed-response": ">=0.1.0"
+    "yyl-config-types": ">=0.5.1",
+    "yyl-seed-response": ">=0.2.0"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.1.0",

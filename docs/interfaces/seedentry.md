@@ -4,10 +4,6 @@
 
 seed 入口
 
-## Hierarchy
-
-* **SeedEntry**
-
 ## Table of contents
 
 ### Properties
@@ -22,18 +18,18 @@ seed 入口
 
 ### initPackage
 
-• **initPackage**: { `default`: *string*[] ; `yy`: *string*[]  }
+• **initPackage**: *object*
 
 seed 包初始化用对象
 
-#### Type declaration:
+#### Type declaration
 
-Name | Type |
------- | ------ |
-`default` | *string*[] |
-`yy` | *string*[] |
+| Name | Type |
+| :------ | :------ |
+| `default` | *string*[] |
+| `yy` | *string*[] |
 
-Defined in: [types.ts:57](https://github.com/yyl-team/yyl-seed-base/blob/de3a34f/src/types.ts#L57)
+Defined in: [types.ts:57](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L57)
 
 ___
 
@@ -43,7 +39,7 @@ ___
 
 seed 名称
 
-Defined in: [types.ts:49](https://github.com/yyl-team/yyl-seed-base/blob/de3a34f/src/types.ts#L49)
+Defined in: [types.ts:49](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L49)
 
 ___
 
@@ -53,7 +49,7 @@ ___
 
 构建处理
 
-Defined in: [types.ts:55](https://github.com/yyl-team/yyl-seed-base/blob/de3a34f/src/types.ts#L55)
+Defined in: [types.ts:55](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L55)
 
 ___
 
@@ -63,7 +59,7 @@ ___
 
 所在地址
 
-Defined in: [types.ts:53](https://github.com/yyl-team/yyl-seed-base/blob/de3a34f/src/types.ts#L53)
+Defined in: [types.ts:53](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L53)
 
 ___
 
@@ -73,4 +69,4 @@ ___
 
 版本
 
-Defined in: [types.ts:51](https://github.com/yyl-team/yyl-seed-base/blob/de3a34f/src/types.ts#L51)
+Defined in: [types.ts:51](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L51)
