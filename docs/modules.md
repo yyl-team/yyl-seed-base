@@ -34,4 +34,4 @@
 
 **Returns:** *Promise*<[*SeedOptimizeResult*](interfaces/seedoptimizeresult.md) \| undefined\>
 
-Defined in: [types.ts:44](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L44)
+Defined in: [types.ts:45](https://github.com/yyl-team/yyl-seed-base/blob/39c10b4/src/types.ts#L45)

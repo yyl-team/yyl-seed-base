@@ -42,9 +42,9 @@ express 使用中间件后回调 hooks
 
 **Returns:** *Promise*<any\>
 
-Defined in: [types.ts:18](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L18)
+Defined in: [types.ts:19](https://github.com/yyl-team/yyl-seed-base/blob/39c10b4/src/types.ts#L19)
 
-Defined in: [types.ts:18](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L18)
+Defined in: [types.ts:19](https://github.com/yyl-team/yyl-seed-base/blob/39c10b4/src/types.ts#L19)
 
 ___
 
@@ -66,9 +66,9 @@ express 使用中间件前回调 hooks
 
 **Returns:** *Promise*<any\>
 
-Defined in: [types.ts:16](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L16)
+Defined in: [types.ts:17](https://github.com/yyl-team/yyl-seed-base/blob/39c10b4/src/types.ts#L17)
 
-Defined in: [types.ts:16](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L16)
+Defined in: [types.ts:17](https://github.com/yyl-team/yyl-seed-base/blob/39c10b4/src/types.ts#L17)
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 可操作句柄
 
-Defined in: [types.ts:29](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L29)
+Defined in: [types.ts:30](https://github.com/yyl-team/yyl-seed-base/blob/39c10b4/src/types.ts#L30)
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 通知父应用不运行本地 server
 
-Defined in: [types.ts:14](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L14)
+Defined in: [types.ts:15](https://github.com/yyl-team/yyl-seed-base/blob/39c10b4/src/types.ts#L15)
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 消息处理对象
 
-Defined in: [types.ts:10](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L10)
+Defined in: [types.ts:11](https://github.com/yyl-team/yyl-seed-base/blob/39c10b4/src/types.ts#L11)
 
 ___
 
@@ -108,7 +108,7 @@ ___
 
 项目根目录
 
-Defined in: [types.ts:12](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L12)
+Defined in: [types.ts:13](https://github.com/yyl-team/yyl-seed-base/blob/39c10b4/src/types.ts#L13)
 
 ## Methods
 
@@ -120,7 +120,7 @@ Defined in: [types.ts:12](https://github.com/yyl-team/yyl-seed-base/blob/82efb95
 
 **Returns:** [*SeedOptimizeResult*](seedoptimizeresult.md)
 
-Defined in: [types.ts:25](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L25)
+Defined in: [types.ts:26](https://github.com/yyl-team/yyl-seed-base/blob/39c10b4/src/types.ts#L26)
 
 ___
 
@@ -132,7 +132,7 @@ ___
 
 **Returns:** YylConfig
 
-Defined in: [types.ts:8](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L8)
+Defined in: [types.ts:9](https://github.com/yyl-team/yyl-seed-base/blob/39c10b4/src/types.ts#L9)
 
 ___
 
@@ -157,7 +157,7 @@ ___
 
 **Returns:** [*SeedOptimizeResult*](seedoptimizeresult.md)
 
-Defined in: [types.ts:20](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L20)
+Defined in: [types.ts:21](https://github.com/yyl-team/yyl-seed-base/blob/39c10b4/src/types.ts#L21)
 
 ___
 
@@ -169,4 +169,4 @@ ___
 
 **Returns:** [*SeedOptimizeResult*](seedoptimizeresult.md)
 
-Defined in: [types.ts:27](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L27)
+Defined in: [types.ts:28](https://github.com/yyl-team/yyl-seed-base/blob/39c10b4/src/types.ts#L28)
