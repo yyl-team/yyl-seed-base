@@ -29,7 +29,7 @@ seed 包初始化用对象
 | `default` | *string*[] |
 | `yy` | *string*[] |
 
-Defined in: [types.ts:57](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L57)
+Defined in: [types.ts:58](https://github.com/yyl-team/yyl-seed-base/blob/39c10b4/src/types.ts#L58)
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 seed 名称
 
-Defined in: [types.ts:49](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L49)
+Defined in: [types.ts:50](https://github.com/yyl-team/yyl-seed-base/blob/39c10b4/src/types.ts#L50)
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 构建处理
 
-Defined in: [types.ts:55](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L55)
+Defined in: [types.ts:56](https://github.com/yyl-team/yyl-seed-base/blob/39c10b4/src/types.ts#L56)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 所在地址
 
-Defined in: [types.ts:53](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L53)
+Defined in: [types.ts:54](https://github.com/yyl-team/yyl-seed-base/blob/39c10b4/src/types.ts#L54)
 
 ___
 
@@ -69,4 +69,4 @@ ___
 
 版本
 
-Defined in: [types.ts:51](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L51)
+Defined in: [types.ts:52](https://github.com/yyl-team/yyl-seed-base/blob/39c10b4/src/types.ts#L52)

@@ -1,6 +1,7 @@
-import { YylConfig, Env, Logger, LoggerType } from 'yyl-config-types'
-import SeedResponse, { ResponseFn } from 'yyl-seed-response'
-import { Express } from 'express'
+import type { YylConfig, Env, LoggerType } from 'yyl-config-types'
+import type SeedResponse from 'yyl-seed-response'
+import type { ResponseFn } from 'yyl-seed-response'
+import type { Express } from 'express'
 
 /** 构建函数 - 返回 */
 export interface SeedOptimizeResult {

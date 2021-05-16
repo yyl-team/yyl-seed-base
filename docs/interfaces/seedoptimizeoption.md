@@ -21,7 +21,7 @@
 
 操作符
 
-Defined in: [types.ts:40](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L40)
+Defined in: [types.ts:41](https://github.com/yyl-team/yyl-seed-base/blob/39c10b4/src/types.ts#L41)
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 cli 传参
 
-Defined in: [types.ts:38](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L38)
+Defined in: [types.ts:39](https://github.com/yyl-team/yyl-seed-base/blob/39c10b4/src/types.ts#L39)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 项目根目录
 
-Defined in: [types.ts:36](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L36)
+Defined in: [types.ts:37](https://github.com/yyl-team/yyl-seed-base/blob/39c10b4/src/types.ts#L37)
 
 ___
 
@@ -51,4 +51,4 @@ ___
 
 yylConfig
 
-Defined in: [types.ts:34](https://github.com/yyl-team/yyl-seed-base/blob/82efb95/src/types.ts#L34)
+Defined in: [types.ts:35](https://github.com/yyl-team/yyl-seed-base/blob/39c10b4/src/types.ts#L35)
